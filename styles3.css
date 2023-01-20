@@ -1,0 +1,263 @@
+/*========================================== 1.GLOBAL CSS ===========================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+ body {
+	background: #ffffff;
+	color: #999999;
+	font-family: 'Lekton', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 0 auto;
+	max-width: 1500px;
+}
+
+p {
+	margin-bottom: 0px;
+}
+h1 {
+	font-family: 'Cutive', serif;
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 73px;
+	color: #222222;
+	letter-spacing: 2px;
+}
+h2 {
+	font-family: 'Cutive', serif;
+	font-size: 34px;
+	font-weight: 400;
+	line-height: 42px;
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+h3 {
+	font-family: 'Cutive', serif;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 36px;
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+h4 {
+	font-family: 'Cutive', serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+h5 {
+	font-family: 'Cutive', serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+h6 {
+	font-family: 'Cutive', serif;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 27px;
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+
+/* HEADER */
+#header img{
+    width: 150px;
+}
+
+/* HOME */
+#home img{
+	max-width: 100%;
+
+}
+#home {
+	background-color:#f4f3f1;
+}
+
+.home h2{
+	color: #222222;
+
+}
+.home h3{
+	color:#999999;
+}
+
+.minh-100 {
+	height: 100vh;
+  } 
+
+/*----- Generales -----*/
+.padding-top20{
+	padding-top: 20px;
+}
+.padding-top30{
+	padding-top: 30px;
+}
+.padding-top10{
+	padding-top: 10px;
+}
+.padding-top60{
+	padding-top: 60px;
+}
+.padding-top80{
+	padding-top: 80px;
+}
+.padding-top180{
+	padding-top: 180px;
+}
+.padding-bottom5{
+	padding-bottom: 5px;
+}
+.padding-bottom10{
+	padding-bottom: 10px;
+}
+.padding-bottom15{
+	padding-bottom: 15px;
+}
+.padding-bottom20{
+	padding-bottom: 20px;
+}
+.padding-bottom30{
+	padding-bottom: 30px;
+}
+.padding-left20{
+	padding-left:20px;
+}
+.padding-right30{
+	padding-right: 30px;
+}
+.margin-bottom30{
+	margin-bottom: 30px;
+}
+.margin-top30{
+	margin-top: 30px;
+}
+.margin-left30{
+	margin-left: 30px;
+}
+
+.display-table {
+	display: table;
+}
+.display-table-cell {
+	display: table-cell;
+}
+
+.boxed-btn {
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffffff !important;
+	padding: 10px 20px;
+	transition: all 0.3s ease-in;
+	letter-spacing: 1px;
+	border: 1px solid #F26666;
+	background-color: #F26666;
+	cursor: pointer;
+	border-radius: 5px !important;
+}
+
+#about{
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.about-content h3{
+	padding-bottom: 15px;
+}
+.about-content p:nth-child(2){
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.about-content{
+	padding-right: 30px;
+}
+
+.about-detail{
+	background-color: #333333;
+	padding: 40px 50px;
+	display: table;
+}
+.about-detail p{
+	color: #999999;
+	letter-spacing: 1px;
+}
+.about-detail h6{
+	letter-spacing: 1px;
+}
+.about-detail img{
+	padding-right: 20px;
+}
+.about-detail h6{
+	padding-bottom:10px;
+}
+
+/*----------- Sobre Mi ---------*/
+#sobreMi{
+	background-color: #222222;
+}
+
+
+/*----------- Contacto ---------*/
+.form-bg{
+	background-color:#333333;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+}
+.contact-form .form-control{
+	margin-bottom: 20px;
+}
+.contact-form-img img{
+	position:relative;
+}
+.contact-form-detail h5{
+	color: #ffffff;
+	padding-bottom: 10px;
+}
+.contact-form-detail p{
+	letter-spacing: 1px;
+}
+.contact-form-detail{
+	color: #ffffff;
+	position:absolute;
+	bottom: 0;
+	background-color:rgba(31, 61, 157,0.7) ;
+	padding: 20px;
+	width:94.5%;
+}
+.form-icon{
+	color: #ffffff;
+	margin-right: 15px !important;
+}
+.contact-form .form-message{
+
+	height: 80px;
+}
+.contact-form .form-input{
+	
+	height: 44px;
+}
+.contact-details{
+	vertical-align: middle;
+	padding-left: 20px;
+}
+.padding-bottom70{
+	padding-bottom: 70px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+}
+#my_carousel_1 .owl-dots{
+	display: none !important;
+}

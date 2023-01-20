@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles3.css">
+      </head>
+<body>
+     <!-- Header -->
+	 <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a  class="navbar-brand" href="#">
+            <img src="img/logo_ef.png" alt="Esteban Fernandez Logo" id="logo_ef">
+            
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav m ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#main">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#speakers">Sobre Mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#place-time">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#conviertete-en-orador">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-platzi" href="#" data-bs-toggle="modal" data-bs-target="#modalCompra">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div> 
+    </nav>
+    <!-- /Header -->
+
+	<!-- HOME -->
+	<section id="home">
+		<div class="row justify-content-center align-items-center .minh-100">
+			<div class="col-12 col-md-6 col-lg-6 home text-center ">
+				<h2>ESTEBAN</h2>
+				<h2>FERNANDEZ</h2>
+				<h3>Programador</h3>
+			</div>
+			<div class="col-12 col-md-6 col-lg-6">
+				<img src="img/perfil.jpg">
+			</div>
+		</div>
+	</section>
+	<!-- /HOME -->
+
+    <!-- Sobre MI -->
+	<section id="about">
+		<div class="container padding-bottom30 padding-top30">
+				<div class="row">
+					<div class="col-sm-12 col-md-6 col-lg-6 about-content">
+						<h2>Sobre Mi</h2>
+						
+						<p>Lorem Ipsum sodales orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra,per inceptos himenaeos. Aenean a arcu ullamcorper eros viverra suscipit.</p>
+						<p>Lorem Ipsum sodales orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+								
+					</div>
+
+					<div class="col-sm-12 col-md-6 col-lg-6 about-detail">
+						<div class="row">
+							<div class="col-sm-6 col-md-6 col-lg-6 ">
+								<div class="padding-bottom30 display-table about-res">
+									<div class="display-table-cell">
+										<img src="img/48x48x1.png" alt="750x500" class="img-fluid">
+									</div>
+									<div class="display-table-cell">
+										<h6>Email</h6>
+										<p>sample@gmail.com</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<div class="padding-bottom30 about-res">
+									<div class="display-table-cell">
+										<img src="img/48x48x2.png" alt="750x500" class="img-fluid">
+									</div>
+									<div class="display-table-cell">
+										<h6>Rol</h6>
+										<p>Programador</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row rowsafari">
+							<div class="col-sm-6 col-md-6 col-lg-6 res1-pad-bot3">
+								<div class="about-res">
+									<div class="display-table-cell">
+										<img src="img/48x48x3.png" alt="750x500" class="img-fluid">
+									</div>
+									<div class="display-table-cell">
+										<h6>Telefono</h6>
+										<p>+543865 65656</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-6">
+								<div class="about-res">
+									<div class="display-table-cell">
+										<img src="img/48x48x4.png" alt="750x500" class="img-fluid">
+									</div>
+									<div class="display-table-cell">
+										<h6>Dirección</h6>
+										<p>Tucuman, Argentina</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</section>
+	<!-- /Sobre Mi -->
+
+	<!--======= Contacto =====-->
+	<section class="form-bg" id="contact">
+		<div class="container">
+			<div class="row rowsafari">
+				<div class="col-sm-12 col-md-6 col-lg-8 offset-lg-2">
+					
+					<form action="https://www.pennyblacktemplates.com/demo/ws/resume/index.html#" class="contact-form" method="POST">
+						<div class="col-lg-12">
+							<h3 class="padding-bottom20 text-white">Contactame</h3>
+						</div>
+						<div class="row marg-top20">
+							<div class="col-sm-12 col-md-6 col-lg-12 padding-bottom10 no-res-pad-rl">
+								<div>
+									<div class="form-div text-center">
+										<input type="text" class="form-control form-input" id="name" placeholder="Nombre" name="Nombre" required="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row rowsafari">
+							<div class="col-sm-12 col-md-6 col-lg-12 padding-bottom10 no-res-pad-rl">
+								<div>
+									<div class="form-div text-center">
+										<input type="text" class="form-control form-input" id="name-1" placeholder="Apellido" name="Apellido" required="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row rowsafari">
+							<div class="col-sm-12 col-md-6 col-lg-12 padding-bottom10 no-res-pad-rl">
+								<div class="form-div">
+									 <input type="text" class="form-control form-input number-css" placeholder="Telefono" name="telefono" id="telefono" autocomplete="off" required="">
+									 
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-12 padding-bottom10 no-res-pad-rl ">	
+								<div class="form-div">
+									<input type="email" class="form-control form-input" id="email" placeholder="Email" name="email" required="">
+								</div>
+							</div>													
+						</div>	
+						<div class="col-lg-12">
+							<div class="form-div marg-top30 no-res-pad-right">
+								
+								<textarea class="form-control form-comment-height form-message" rows="2" placeholder="Mensaje" id="mensaje" name="mensaje" required=""></textarea>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="padding-top30 text-align">
+								<button class="boxed-btn" type="Enviar">Enviar</button>
+							</div>
+							
+							<div class="messageDiv text-center"> <span class="successMessage"> </span> <span class="failMessage"> </span> </div>
+						
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	
+	</section>
+	<!--======= Contacto =====-->
+
+	<!-- 
+	<section id="sobreMi">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-6 pt-5">
+					<h2>FERNANDEZ ESTEBAN</h2>
+				</div>
+				
+				<div class="col-sm-12 col-md-6 col-lg-6 pt-1">
+						<h2>Sobre Mi</h2>
+						
+						<p>Lorem Ipsum sodales orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra,per inceptos himenaeos. Aenean a arcu ullamcorper eros viverra suscipit.</p>
+						<p>Lorem Ipsum sodales orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+						<p>Lorem Ipsum sodales orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+								
+				</div>
+			</div>
+		</div>	
+	</section>
+-->
+	
+	
+	
+
+</body>
+</html>
