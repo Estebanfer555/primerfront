@@ -206,12 +206,25 @@ h6 {
 /*----------- Habilidades -------*/
 
 .habilidades{
-	background-color: #999999;
+	background-color: #222222;
 	padding: 30px 100px; 
 	max-width: 1500px;
 }
 .level-title{
+	color:#999999;
+}
+
+/*---------- Experiencia -------*/
+.experiencia{
+	background-color:#999999;
+	padding: 30px 100px; 
+	max-width: 1500px;
+}
+.title{
 	color:#333333;
+}
+.experiencia p{
+	color: #333333;
 }
 
 /*----------- Contacto ---------*/
