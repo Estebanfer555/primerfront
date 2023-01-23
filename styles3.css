@@ -203,6 +203,16 @@ h6 {
 	background-color: #222222;
 }
 
+/*----------- Habilidades -------*/
+
+.habilidades{
+	background-color: #999999;
+	padding: 30px 100px; 
+	max-width: 1500px;
+}
+.level-title{
+	color:#333333;
+}
 
 /*----------- Contacto ---------*/
 .form-bg{
